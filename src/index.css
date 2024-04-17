@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+/* Define a CSS class for applying the font-family */
+.font-outfit {
+  font-family: "Outfit", sans-serif; /* Include a fallback font */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+}
